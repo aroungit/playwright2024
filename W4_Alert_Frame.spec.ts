@@ -9,8 +9,6 @@ test('automate alert interactions', async ({ page }) => {
 
     //const frame = page.frame({url:"https://www.w3schools.com/js/tryit.asp?filename=tryjs_confirm"});
 
-    //await frame?.click("//button[@onclick='myFunction()']");
-
     //using Framelocator create an object and interact with the element to be clicked
     const frame = page.frameLocator("//div[@id='iframewrapper']/iframe").first();
 
